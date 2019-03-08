@@ -43,7 +43,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1716.0, 396.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 1716.0, 395.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "I"
 				}
@@ -56,7 +55,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1673.0, 396.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 1673.0, 397.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "B"
 				}
@@ -69,7 +67,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1623.0, 396.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 1623.0, 396.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "C"
 				}
@@ -82,7 +79,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1579.0, 396.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 1581.0, 396.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "G"
 				}
@@ -95,7 +91,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1534.0, 396.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 1534.0, 394.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "A"
 				}
@@ -108,7 +103,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1488.0, 396.0, 18.0, 20.0 ],
-					"presentation_rect" : [ 1488.0, 396.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "L"
 				}
@@ -135,7 +129,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1791.0, 413.0, 247.0, 24.0 ],
-					"presentation_rect" : [ 1686.0, 395.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "OSC Address for setting the master rgb. "
 				}
@@ -176,7 +169,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2100.5, 131.5, 49.5, 24.0 ],
-					"presentation_rect" : [ 2001.5, 117.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "RGB"
 				}
@@ -190,7 +182,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2040.0, 160.0, 188.0, 127.0 ],
-					"presentation_rect" : [ 1936.0, 140.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Sending a list of 3 values that correspond to an RGB color will set the Hue and Saturation of the light to the nearest color. Note that in this mode blue hues comprise a very small part of the color spectrum and the color of the lights may not match the swatch color."
 				}
@@ -218,7 +209,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2577.5, 105.5, 59.0, 24.0 ],
-					"presentation_rect" : [ 1896.5, 213.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Strobe"
 				}
@@ -231,8 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2520.0, 131.5, 233.0, 154.0 ],
-					"presentation_rect" : [ 1831.0, 236.0, 0.0, 0.0 ],
+					"patching_rect" : [ 2520.0, 131.5, 236.0, 154.0 ],
 					"style" : "",
 					"text" : "The strobe of the lights controls the speed of a blink effect. ETC does not provide any documentation of the exponential interval curve used in their lights other than it \"blinks more rapidly\". Additionally, due to the arrangement of the lights, the strobe is not synchronized, resulting in lights blinking at random offsets from each other. If you would like to experiment with any kind of precision strobing, I would suggest changing the intensity instead. "
 				}
@@ -247,7 +236,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2233.0, 413.0, 261.0, 24.0 ],
-					"presentation_rect" : [ 1527.0, 442.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "OSC Address for setting the master strobe. "
 				}
@@ -263,7 +251,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2496.0, 368.5, 50.0, 22.0 ],
-					"presentation_rect" : [ 1776.0, 397.5, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -273,14 +260,13 @@
 					"floatoutput" : 1,
 					"id" : "obj-75",
 					"maxclass" : "slider",
-					"mult" : 0.001,
+					"mult" : 0.003906,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2496.0, 207.0, 20.0, 140.0 ],
-					"presentation_rect" : [ 1776.0, 236.0, 0.0, 0.0 ],
-					"size" : 1000.0,
+					"size" : 256.0,
 					"style" : ""
 				}
 
@@ -307,7 +293,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 646.0, 520.0, 237.0, 39.0 ],
-					"presentation_rect" : [ 646.0, 520.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Final OSC Message Preview",
 					"textjustification" : 1
@@ -324,7 +309,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 488.5, 559.0, 560.0, 34.0 ],
-					"text" : "/s4/master/strobe : 0.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -339,7 +323,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1047.0, 426.5, 247.0, 37.0 ],
-					"presentation_rect" : [ 1150.0, 460.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "OSC Address for setting the master 7 channel mixing. "
 				}
@@ -391,8 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1515.0, 27.0, 120.0, 24.0 ],
-					"presentation_rect" : [ 1564.5, 168.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1515.0, 27.0, 123.0, 24.0 ],
 					"style" : "",
 					"text" : "7 Color Mixing "
 				}
@@ -406,7 +388,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1424.0, 53.0, 349.0, 181.0 ],
-					"presentation_rect" : [ 1499.0, 191.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "The Lustr Series 2 comes with 7 internal colored LEDs that it uses to mix all colors that the unit can make. The HSL configuration to the left uses the onboard software of the lights to configure the 7 LEDs. The \"Plus 7\" mode instead transfers manual mixing control to the user. Those wishing to experiment with a richer set of blue hues may want to try this method of control over the Hue & Saturation mode. Don't worry about having to change any DMX flags, the lighting computer will automatically turn \"Plus 7\" on & off depending on the information sent to it.\n\nThe LED color order is:\nRed, Lime, Amber, Green, Cyan, Blue, Indigo"
 				}
@@ -545,7 +526,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1092.5, 156.0, 43.0, 24.0 ],
-					"presentation_rect" : [ 1068.0, 157.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Hue"
 				}
@@ -559,7 +539,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1027.0, 179.0, 174.0, 114.0 ],
-					"presentation_rect" : [ 1027.0, 179.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Hue sets the color value used in the lamps. Unlike RGB, the hue is the angle of rotation around a color wheel. In the case of our lighting system, Hue is mapped from [0...1] to [0...360] (or if you like in radians [0...2PI])"
 				}
@@ -574,7 +553,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 723.0, 385.0, 247.0, 24.0 ],
-					"presentation_rect" : [ 735.0, 377.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "OSC Address for setting the master hue. "
 				}
@@ -590,7 +568,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 972.0, 340.5, 50.0, 22.0 ],
-					"presentation_rect" : [ 972.0, 340.5, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -600,14 +577,13 @@
 					"floatoutput" : 1,
 					"id" : "obj-53",
 					"maxclass" : "slider",
-					"mult" : 0.001,
+					"mult" : 0.003906,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 972.0, 179.0, 20.0, 140.0 ],
-					"presentation_rect" : [ 972.0, 179.0, 0.0, 0.0 ],
-					"size" : 1000.0,
+					"size" : 256.0,
 					"style" : ""
 				}
 
@@ -632,7 +608,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 761.5, 262.0, 38.0, 20.0 ],
-					"presentation_rect" : [ 786.5, 266.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Low"
 				}
@@ -662,7 +637,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 759.0, 284.0, 43.0, 43.0 ],
-					"presentation_rect" : [ 780.0, 277.0, 0.0, 0.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -695,7 +669,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 666.0, 179.0, 174.0, 74.0 ],
-					"presentation_rect" : [ 666.0, 179.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Saturation controls how fully a color is produced. Low saturation colors are more white/grey and look \"washed out\"."
 				}
@@ -710,7 +683,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 710.0, 156.0, 94.0, 24.0 ],
-					"presentation_rect" : [ 710.0, 156.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Saturation"
 				}
@@ -723,7 +695,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.0, 179.0, 174.0, 100.0 ],
+					"patching_rect" : [ 282.0, 179.0, 177.0, 100.0 ],
 					"style" : "",
 					"text" : "Intensity controls the brightness of the lamp. When set to 0, the lamp's internal LEDs are completely on. When set to 1, the internal LEDs will be outputting their full color setting."
 				}
@@ -753,7 +725,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 374.0, 377.5, 237.0, 37.0 ],
-					"presentation_rect" : [ 377.0, 374.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "OSC Address for setting the master color saturation. "
 				}
@@ -769,7 +740,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 611.0, 340.5, 50.0, 22.0 ],
-					"presentation_rect" : [ 506.0, 334.5, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -779,14 +749,13 @@
 					"floatoutput" : 1,
 					"id" : "obj-31",
 					"maxclass" : "slider",
-					"mult" : 0.001,
+					"mult" : 0.003906,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 611.0, 179.0, 20.0, 140.0 ],
-					"presentation_rect" : [ 506.0, 173.0, 0.0, 0.0 ],
-					"size" : 1000.0,
+					"size" : 256.0,
 					"style" : ""
 				}
 
@@ -814,9 +783,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 217.0, 230.0, 64.0 ],
-					"presentation_rect" : [ 20.0, 247.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "This slider has 1000 steps configured for it. To change its value programmatically, send [0...1000] and the slider will output [0...1]"
+					"text" : "This slider has 256 steps configured for it. To change its value programmatically, send [0...255] and the slider will output [0...1]"
 				}
 
 			}
@@ -830,7 +798,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 464.0, 241.0, 78.0 ],
-					"presentation_rect" : [ 24.0, 486.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Top level OSC address which helps the lighting computer properly route incoming messages. /s4 corresponds to Source 4. Without this address, nothing will happen"
 				}
@@ -859,7 +826,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 559.0, 230.0, 64.0 ],
-					"presentation_rect" : [ 17.0, 569.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "IP Address and port for communicating with the lighting computer. Make sure the CNMAT flag is added."
 				}
@@ -875,7 +841,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 333.0, 230.0, 37.0 ],
-					"presentation_rect" : [ 21.0, 337.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "All values sent to the lighting computer are normalized [0...1]"
 				}
@@ -900,13 +865,13 @@
 					"floatoutput" : 1,
 					"id" : "obj-22",
 					"maxclass" : "slider",
-					"mult" : 0.001,
+					"mult" : 0.003906,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 252.0, 179.0, 20.0, 140.0 ],
-					"size" : 1000.0,
+					"size" : 256.0,
 					"style" : ""
 				}
 
