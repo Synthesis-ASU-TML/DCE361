@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 63.0, 178.0, 921.0, 422.0 ],
+		"rect" : [ 62.0, 94.0, 998.0, 655.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,11 +38,114 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-23",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 16.0, 352.0, 251.0, 66.0 ],
+					"presentation_rect" : [ 36.0, 472.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "The dim message to pattr should change this value, and changing this value sets the value of dim in pattr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"id" : "obj-21",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 202.0, 150.0, 93.0 ],
+					"style" : "",
+					"text" : "The rate message to pattr should change this value, and changing this value sets the value of rate in pattr"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 644.0, 441.5, 273.0, 37.0 ],
+					"presentation_rect" : [ 642.0, 441.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "This message opens a dialog to read presets from a file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 606.0, 449.0, 35.0, 22.0 ],
+					"style" : "",
+					"text" : "read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 644.0, 372.5, 273.0, 37.0 ],
+					"presentation_rect" : [ 644.0, 374.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "This message opens a dialog to save the stored presets to a file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-8",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 699.0, 306.5, 273.0, 51.0 ],
+					"presentation_rect" : [ 694.5, 309.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "This message opens a window showing all saved presets and the setting for each pattr object in those presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 690.5, 248.5, 273.0, 37.0 ],
+					"style" : "",
+					"text" : "This message opens a window showing the current state of all recognized pattr objects"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 745.0, 298.0, 150.0, 20.0 ],
+					"patching_rect" : [ 745.0, 536.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "Change playback speed"
 				}
@@ -57,7 +160,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 762.5, 320.0, 50.0, 22.0 ],
+					"patching_rect" : [ 762.5, 558.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -69,7 +172,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 762.5, 347.0, 79.0, 22.0 ],
+					"patching_rect" : [ 762.5, 585.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend rate"
 				}
@@ -82,7 +185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 281.0, 171.0, 33.0 ],
+					"patching_rect" : [ 572.0, 519.0, 171.0, 33.0 ],
 					"style" : "",
 					"text" : "Change these values to play with the video resolution"
 				}
@@ -95,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 224.0, 366.0, 140.0, 22.0 ],
+					"patching_rect" : [ 224.0, 505.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture @filter none"
 				}
@@ -111,8 +214,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 674.0, 316.0, 50.0, 22.0 ],
-					"presentation_rect" : [ 687.0, 310.0, 0.0, 0.0 ],
+					"patching_rect" : [ 674.0, 554.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -127,7 +229,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 612.0, 316.0, 50.0, 22.0 ],
+					"patching_rect" : [ 612.0, 554.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -139,7 +241,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.0, 347.0, 99.0, 22.0 ],
+					"patching_rect" : [ 572.0, 585.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "pak dim 192 108"
 				}
@@ -152,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 224.0, 397.0, 246.0, 22.0 ],
+					"patching_rect" : [ 224.0, 536.0, 246.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.videoplane storage @transform_reset 2"
 				}
@@ -165,7 +267,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 304.0, 77.0, 22.0 ],
+					"patching_rect" : [ 316.0, 438.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend dim"
 				}
@@ -178,7 +280,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 224.0, 338.0, 194.0, 22.0 ],
+					"patching_rect" : [ 224.0, 477.0, 194.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.matrix 4 char 192 108 @adapt 0"
 				}
@@ -191,7 +293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 277.0, 276.0, 147.0, 22.0 ],
+					"patching_rect" : [ 316.0, 410.0, 147.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"initial" : [ 192, 108 ],
 						"parameter_enable" : 0
@@ -268,8 +370,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.0, 195.5, 150.0, 47.0 ],
-					"presentation_rect" : [ 284.0, 192.0, 0.0, 0.0 ],
+					"patching_rect" : [ 283.0, 278.5, 150.0, 47.0 ],
 					"style" : "",
 					"text" : "Check my inspector. My scripting name should be movie-player"
 				}
@@ -282,7 +383,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 224.0, 208.0, 55.0, 22.0 ],
+					"patching_rect" : [ 224.0, 291.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.movie",
 					"varname" : "movie-player"
@@ -552,7 +653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 784.0, 221.0, 36.0, 22.0 ],
+					"patching_rect" : [ 606.0, 387.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "write"
 				}
@@ -565,7 +666,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 689.0, 221.0, 91.0, 22.0 ],
+					"patching_rect" : [ 606.0, 314.0, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "storagewindow"
 				}
@@ -578,7 +679,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 606.0, 221.0, 79.0, 22.0 ],
+					"patching_rect" : [ 606.0, 254.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "clientwindow"
 				}
@@ -586,12 +687,13 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "storage_example.json",
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 606.0, 255.0, 170.0, 22.0 ],
+					"patching_rect" : [ 606.0, 493.0, 170.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
@@ -631,8 +733,61 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "dim",
+					"id" : "obj-15",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 423.0, 202.0, 22.0 ],
+					"style" : "",
+					"text_width" : 50.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "rate",
+					"id" : "obj-16",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 16.0, 297.0, 150.0, 22.0 ],
+					"style" : "",
+					"text_width" : 50.0
+				}
+
+			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"midpoints" : [ 25.5, 466.0, 219.0, 466.0, 219.0, 464.0, 233.5, 464.0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"midpoints" : [ 25.5, 324.0, 210.0, 324.0, 210.0, 285.0, 233.5, 285.0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-17", 1 ]
@@ -705,7 +860,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 581.5, 372.0, 558.0, 372.0, 558.0, 249.0, 615.5, 249.0 ],
+					"midpoints" : [ 581.5, 610.0, 558.0, 610.0, 558.0, 487.0, 615.5, 487.0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -734,7 +889,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"midpoints" : [ 772.0, 381.0, 558.0, 381.0, 558.0, 249.0, 615.5, 249.0 ],
+					"midpoints" : [ 772.0, 619.0, 558.0, 619.0, 558.0, 487.0, 615.5, 487.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -768,7 +923,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "storage_example.json",
+				"bootpath" : "~/Documents/Max 7/Packages/DCE361/media/Data",
+				"patcherrelativepath" : "../../media/Data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
