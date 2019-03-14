@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 468.0, 170.0, 154.0, 47.0 ],
+					"presentation_rect" : [ 456.0, 169.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "Left click any of the light grey boxes to load that preset."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"bubbleside" : 2,
 					"id" : "obj-23",
@@ -45,10 +59,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 352.0, 251.0, 66.0 ],
+					"patching_rect" : [ 16.0, 352.0, 272.0, 66.0 ],
 					"presentation_rect" : [ 36.0, 472.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "The dim message to pattr should change this value, and changing this value sets the value of dim in pattr"
+					"text" : "The dim message to pattr should change this value, but changing this value will not set the value of dim in pattr"
 				}
 
 			}
