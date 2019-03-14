@@ -1,0 +1,117 @@
+{
+	"pattrstorage" : 	{
+		"name" : "blending",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sc.texture.video.simple::texture_name" : [ 0 ],
+					"sc.texture.video.simple::rate" : [ 1.0 ],
+					"sc.texture.video.simple::automatic" : [ 1 ],
+					"sc.texture.video.simple::autostart" : [ 1 ],
+					"sc.texture.video.simple::vol" : [ 0.0 ],
+					"sc.texture.video.simple::unique" : [ 0 ],
+					"sc.texture.video.simple::invert_alpha" : [ 0.0 ],
+					"sc.texture.radialgradient::dim" : [ 512, 512, 0 ],
+					"sc.texture.radialgradient::color2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"sc.texture.radialgradient::color1" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"sc.texture.radialgradient::length" : [ 0.7 ],
+					"sc.texture.radialgradient::exponent" : [ 1.0 ],
+					"sc.texture.radialgradient::center" : [ 0.5, 0.5 ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.invert::bypass" : [ 0.0 ],
+					"sc.texture.video.simple[1]::invert_alpha" : [ 0.0 ],
+					"sc.texture.video.simple[1]::unique" : [ 0 ],
+					"sc.texture.video.simple[1]::vol" : [ 0.0 ],
+					"sc.texture.video.simple[1]::autostart" : [ 1 ],
+					"sc.texture.video.simple[1]::automatic" : [ 1 ],
+					"sc.texture.video.simple[1]::rate" : [ 1.0 ],
+					"sc.texture.video.simple[1]::texture_name" : [ 0 ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "*" ],
+					"sc.texture.binaryop[2]::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[2]::op" : [ "+" ],
+					"movie-2" : [ "chickens.mp4" ],
+					"movie-1" : [ "hap-sample.mov" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"sc.texture.video.simple::texture_name" : [ 0 ],
+					"sc.texture.video.simple::rate" : [ 1.0 ],
+					"sc.texture.video.simple::automatic" : [ 1 ],
+					"sc.texture.video.simple::autostart" : [ 1 ],
+					"sc.texture.video.simple::vol" : [ 0.0 ],
+					"sc.texture.video.simple::unique" : [ 0 ],
+					"sc.texture.video.simple::invert_alpha" : [ 0.0 ],
+					"sc.texture.radialgradient::dim" : [ 512, 512, 0 ],
+					"sc.texture.radialgradient::color2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"sc.texture.radialgradient::color1" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"sc.texture.radialgradient::length" : [ 1.0 ],
+					"sc.texture.radialgradient::exponent" : [ 2.0 ],
+					"sc.texture.radialgradient::center" : [ 0.5, 0.5 ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.invert::bypass" : [ 0.0 ],
+					"sc.texture.video.simple[1]::invert_alpha" : [ 0.0 ],
+					"sc.texture.video.simple[1]::unique" : [ 0 ],
+					"sc.texture.video.simple[1]::vol" : [ 0.0 ],
+					"sc.texture.video.simple[1]::autostart" : [ 1 ],
+					"sc.texture.video.simple[1]::automatic" : [ 1 ],
+					"sc.texture.video.simple[1]::rate" : [ 1.0 ],
+					"sc.texture.video.simple[1]::texture_name" : [ 0 ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "*" ],
+					"sc.texture.binaryop[2]::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[2]::op" : [ "+" ],
+					"movie-2" : [ "hap-sample.mov" ],
+					"movie-1" : [ "dishes.mov" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"sc.texture.video.simple::texture_name" : [ 0 ],
+					"sc.texture.video.simple::rate" : [ 1.0 ],
+					"sc.texture.video.simple::automatic" : [ 1 ],
+					"sc.texture.video.simple::autostart" : [ 1 ],
+					"sc.texture.video.simple::vol" : [ 0.0 ],
+					"sc.texture.video.simple::unique" : [ 0 ],
+					"sc.texture.video.simple::invert_alpha" : [ 0.0 ],
+					"sc.texture.radialgradient::dim" : [ 512, 512, 0 ],
+					"sc.texture.radialgradient::color2" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"sc.texture.radialgradient::color1" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"sc.texture.radialgradient::length" : [ 1.0 ],
+					"sc.texture.radialgradient::exponent" : [ 0.1 ],
+					"sc.texture.radialgradient::center" : [ 0.5, 0.5 ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.invert::bypass" : [ 0.0 ],
+					"sc.texture.video.simple[1]::invert_alpha" : [ 0.0 ],
+					"sc.texture.video.simple[1]::unique" : [ 0 ],
+					"sc.texture.video.simple[1]::vol" : [ 0.0 ],
+					"sc.texture.video.simple[1]::autostart" : [ 1 ],
+					"sc.texture.video.simple[1]::automatic" : [ 1 ],
+					"sc.texture.video.simple[1]::rate" : [ 1.0 ],
+					"sc.texture.video.simple[1]::texture_name" : [ 0 ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "*" ],
+					"sc.texture.binaryop[2]::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[2]::op" : [ "+" ],
+					"movie-2" : [ "hap-sample.mov" ],
+					"movie-1" : [ "chickens.mp4" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
