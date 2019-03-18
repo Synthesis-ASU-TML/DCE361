@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 283.0, 108.0, 914.0, 661.0 ],
+		"rect" : [ 276.0, 121.0, 914.0, 661.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -100,7 +100,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1144.0, 104.0, 193.0, 74.0 ],
-					"presentation_rect" : [ 1247.0, 78.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Downsampling:\nFills a buffer, then averages the contents of the buffer, then clear s and waits for the next full buffer. Only outputs once the buffer is full."
 				}
@@ -113,7 +112,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1348.0, 252.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 1436.0, 241.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "More Smoothing"
 				}
@@ -126,7 +124,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1335.0, 180.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 1428.0, 154.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Less Smoothing"
 				}
@@ -144,7 +141,6 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1133.0, 375.0, 431.0, 252.0 ],
-					"presentation_rect" : [ 1236.0, 349.0, 0.0, 0.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
 					"size" : 5,
@@ -160,7 +156,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1239.0, 324.5, 150.0, 33.0 ],
-					"presentation_rect" : [ 1342.0, 298.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Make everything normalized"
 				}
@@ -174,7 +169,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1133.0, 330.0, 100.0, 22.0 ],
-					"presentation_rect" : [ 1236.0, 304.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "vexpr $f1 / 8000."
 				}
@@ -188,7 +182,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1133.0, 303.0, 61.0, 22.0 ],
-					"presentation_rect" : [ 1236.0, 277.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "join 5"
 				}
@@ -202,7 +195,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1133.0, 71.0, 56.0, 22.0 ],
-					"presentation_rect" : [ 1236.0, 45.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r light_in"
 				}
@@ -228,7 +220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 671.0, 109.0, 184.0, 60.0 ],
+					"patching_rect" : [ 671.0, 109.0, 185.0, 60.0 ],
 					"style" : "",
 					"text" : "Windowed Average:\nA block of values are stored, the highest and lowest are removed, and the remaining are averaged."
 				}
@@ -241,7 +233,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 860.0, 272.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 860.0, 271.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "More Smoothing"
 				}
@@ -254,7 +245,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 852.0, 185.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 852.0, 182.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Less Smoothing"
 				}
@@ -272,7 +262,6 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 660.0, 380.0, 431.0, 252.0 ],
-					"presentation_rect" : [ 660.0, 377.0, 0.0, 0.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 3,
 					"size" : 5,
@@ -288,7 +277,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 766.0, 329.5, 150.0, 33.0 ],
-					"presentation_rect" : [ 766.0, 326.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Make everything normalized"
 				}
@@ -302,7 +290,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 335.0, 100.0, 22.0 ],
-					"presentation_rect" : [ 660.0, 332.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "vexpr $f1 / 8000."
 				}
@@ -316,7 +303,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 308.0, 61.0, 22.0 ],
-					"presentation_rect" : [ 660.0, 305.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "join 5"
 				}
@@ -330,7 +316,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 76.0, 56.0, 22.0 ],
-					"presentation_rect" : [ 604.0, 79.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r light_in"
 				}
@@ -399,7 +384,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 400.0, 277.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 399.0, 280.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Less Smoothing"
 				}
@@ -815,8 +799,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1211,8 +1195,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
